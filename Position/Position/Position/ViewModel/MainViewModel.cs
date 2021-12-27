@@ -325,5 +325,26 @@ namespace Position.ViewModel
                 RaisePropertyChanged(() => SelectedD);
             }
         }
+
+        private string _width;
+        public string Width
+        {
+            get { return _width; }
+            set
+            {
+                _width = value;
+                RaisePropertyChanged(() => Width);
+            }
+        }
+        private string _length;
+        public string Length
+        {
+            get { return _length; }
+            set
+            {
+                _length = value;
+                RaisePropertyChanged(() => Length);
+            }
+        }
     }
 }

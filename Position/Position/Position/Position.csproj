@@ -75,6 +75,7 @@
     </ApplicationDefinition>
     <Compile Include="Model\PDUUWB.cs" />
     <Compile Include="Model\PointData.cs" />
+    <Compile Include="Model\TagPoint.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Page Include="MainWindow.xaml">

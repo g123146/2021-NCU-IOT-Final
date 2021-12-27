@@ -50,6 +50,8 @@
         <Button Command="{Binding AddNewPoint}" Content="Add point" HorizontalAlignment="Left" Margin="553,307,0,0" VerticalAlignment="Top" Width="193" Height="28"/>
         <TextBox Text="{Binding NewPointName}" HorizontalAlignment="Left" Height="31" Margin="553,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
         <Label Content="Add new point (Current position)" HorizontalAlignment="Left" Margin="553,241,0,0" VerticalAlignment="Top" Width="203"/>
+        <TextBox Text="{Binding Width}" HorizontalAlignment="Left" Height="23" Margin="219,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Text="{Binding Length}" HorizontalAlignment="Left" Height="23" Margin="10,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
 
     </Grid>
 </Window>
